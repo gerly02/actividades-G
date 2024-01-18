@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T01:24:13.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="wqhN42-D2s_V9gnxblkw" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:39:44.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sA2hYssZ-4PmhhNoLruY" version="22.1.21" type="github">
   <diagram name="Página-1" id="5s8Xqy94O7hPuLvACRVi">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BW9PGZI2smLg-ad-glbC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-2" target="BW9PGZI2smLg-ad-glbC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-2" value="Vinculación de Git a GitHub" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-3" target="BW9PGZI2smLg-ad-glbC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-3" value="Crear repositorio en la plataforma GitHub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-5" target="BW9PGZI2smLg-ad-glbC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-5" value="Abre la consola de Git y dirigela a un directorio en especifico con el comando &lt;b&gt;cd &amp;lt;nombre-directorio&amp;gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="299" y="220" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-6" target="BW9PGZI2smLg-ad-glbC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-6" value="Con &lt;b&gt;Git init &lt;/b&gt;posibilitas el ejecutamiento de codigos, dado que se crea una carpeta para estos ajustes." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="311" y="320" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-10" target="BW9PGZI2smLg-ad-glbC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-10" value="&lt;b&gt;Git remote add origin &amp;lt;URL&amp;gt; &lt;/b&gt;se establece una conexion entre su repositorio local y el repositorio remoto (en linea)." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="410" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-12" value="&lt;b&gt;Git remote -v &lt;/b&gt;muestra la URL del repositorio remoto (verificación)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="321" y="500" width="186" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
