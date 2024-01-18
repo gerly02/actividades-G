@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T01:39:44.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sA2hYssZ-4PmhhNoLruY" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:50:12.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CuLd0DzpW8tDMxJu2x2N" version="22.1.21" type="github">
   <diagram name="Página-1" id="5s8Xqy94O7hPuLvACRVi">
     <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,6 +11,9 @@
           <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW9PGZI2smLg-ad-glbC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-3" target="BW9PGZI2smLg-ad-glbC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-3" target="BW9PGZI2smLg-ad-glbC-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BW9PGZI2smLg-ad-glbC-3" value="Crear repositorio en la plataforma GitHub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -34,8 +37,43 @@
         <mxCell id="BW9PGZI2smLg-ad-glbC-10" value="&lt;b&gt;Git remote add origin &amp;lt;URL&amp;gt; &lt;/b&gt;se establece una conexion entre su repositorio local y el repositorio remoto (en linea)." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="326" y="410" width="176" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-12" target="BW9PGZI2smLg-ad-glbC-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BW9PGZI2smLg-ad-glbC-12" value="&lt;b&gt;Git remote -v &lt;/b&gt;muestra la URL del repositorio remoto (verificación)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="1">
           <mxGeometry x="321" y="500" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-14" target="BW9PGZI2smLg-ad-glbC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-14" value="&lt;b&gt;&amp;lt;URL&amp;gt;&lt;/b&gt;&lt;br&gt;Se debe copiar el link que brinda el repositorio remoto creado en GitHub" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-18" target="BW9PGZI2smLg-ad-glbC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-18" target="BW9PGZI2smLg-ad-glbC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-18" value="Se utiliza para verificar que la conexion haya sido ejecutada." style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="580" y="470" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-25" target="BW9PGZI2smLg-ad-glbC-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="660" />
+              <mxPoint x="350" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-25" value="Git add &amp;lt;nombre_archivo&amp;gt; o &quot;.&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="600" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-27" value="&lt;b&gt;Git commit -m &quot;Comentario&quot;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-30" value="&lt;b&gt;Git commit -am &quot;Comentario&quot;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="590" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
