@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T01:50:12.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CuLd0DzpW8tDMxJu2x2N" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:51:05.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eQnq8zZOL9Az2nTt8JPa" version="22.1.21" type="github">
   <diagram name="Página-1" id="5s8Xqy94O7hPuLvACRVi">
     <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,8 +72,18 @@
         <mxCell id="BW9PGZI2smLg-ad-glbC-27" value="&lt;b&gt;Git commit -m &quot;Comentario&quot;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="680" width="140" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="BW9PGZI2smLg-ad-glbC-30" value="&lt;b&gt;Git commit -am &quot;Comentario&quot;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="590" width="140" height="50" as="geometry" />
+        <mxCell id="BW9PGZI2smLg-ad-glbC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-30" target="BW9PGZI2smLg-ad-glbC-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BW9PGZI2smLg-ad-glbC-30" target="BW9PGZI2smLg-ad-glbC-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW9PGZI2smLg-ad-glbC-30" value="&lt;b&gt;Git commit -am &quot;Comentario&quot;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="130" y="597.5" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
