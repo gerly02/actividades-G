@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T21:58:04.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="EYzf22PvJYx5ARlrDYXq" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:07:48.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="r4XkGvDjfJTbZ_vA-07C" version="22.1.21" type="github">
   <diagram name="Página-1" id="QucJbjz_OcZMdf_oA8Ip">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sQax0YG6tTSzYq0QrZMm-1" target="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sQax0YG6tTSzYq0QrZMm-1" target="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sQax0YG6tTSzYq0QrZMm-1" target="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-1" value="&lt;b&gt;Comandos&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-4" value="&lt;b&gt;Comandos basicos de Git:&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-5" value="&lt;b&gt;Git init: &lt;/b&gt;Inicia un nuevo repositorio Git. Git clone &amp;lt;URL&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry y="30" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-6" value="&lt;b&gt;Git add &amp;lt;archivo&amp;gt; o &quot;.&quot;: &lt;/b&gt;Añade cambios al área de preparación." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry y="80" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-7" value="&lt;b&gt;Git commit -m: &lt;/b&gt;Mensaje del commit&quot;&lt;br&gt;Guarda&amp;nbsp; los cambios realizados en el área de preparación." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry y="130" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-20" value="&lt;b&gt;Git status: &lt;/b&gt;Muestra el estado actual de tu reposirotio." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry y="210" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-21" value="&lt;b&gt;Git log: &lt;/b&gt;Muestra el historial de commits." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-4">
+          <mxGeometry y="260" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-22" value="&lt;b&gt;Comandos para trabajar con ramas:&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="299" y="140" width="230" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-24" value="&lt;div&gt;&lt;b&gt;Git branch &amp;lt;nombre_rama&amp;gt;:&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Crea una nueva rama.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="30" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-23" value="&lt;b&gt;Git branch: &lt;/b&gt;Muestra las ramas locales." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="80" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-25" value="&lt;b&gt;Git switch &amp;lt;nombre_rama&amp;gt;: &lt;/b&gt;Cambia a la rama especificada.&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="110" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-27" value="&lt;b&gt;Git merge &amp;lt;nombre_rama&amp;gt;: &lt;/b&gt;Fusiona una rama con la rama actual." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="170" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-28" value="&lt;b&gt;Git remote -v:&amp;nbsp;&lt;/b&gt;Muestra las URL de los repositorios remotos." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="230" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-29" value="&lt;div&gt;&lt;b&gt;git push &amp;lt;nombre_remoto&amp;gt; &amp;lt;nombre_rama&amp;gt;:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Envía tus cambios a un repositorio remoto.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-30" value="&lt;div&gt;&lt;b&gt;git pull &amp;lt;nombre_remoto&amp;gt; &amp;lt;nombre_rama&amp;gt;:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Obtiene y fusiona los cambios desde un repositorio remoto.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="340" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-31" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;Git fetch:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Obtiene los cambios del repositorio remoto sin fusionarlos.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-22">
+          <mxGeometry y="410" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-32" value="&lt;b&gt;Trabajo colaborativo con GitHub&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="210" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-33" value="&lt;b&gt;Git remote add origin &amp;lt;URL&amp;gt;: &lt;/b&gt;Asocia tu repositorio local con un repositorio remoto." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-34" value="&lt;b&gt;Git clone &amp;lt;URL&amp;gt;:&amp;nbsp;&lt;/b&gt;&amp;nbsp;Clona un repositorio remoto en tu máquina local." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="100" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-36" value="&lt;div&gt;&lt;b&gt;Git fork:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Crea una copia del repositorio de otra persona en tu cuenta de GitHub.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="170" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-37" value="&lt;div&gt;&lt;b&gt;Git pull request:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Envía cambios propuestos en una rama a través de un &quot;pull request&quot;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="240" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-38" value="&lt;div&gt;&lt;b&gt;Git pull request:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Envía cambios propuestos en una rama a través de un &quot;pull request&quot;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="310" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sQax0YG6tTSzYq0QrZMm-39" value="&lt;div&gt;&lt;b&gt;Git merge:&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Fusiona cambios en una rama, comúnmente utilizada después de aprobar un &quot;pull request&quot;.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sQax0YG6tTSzYq0QrZMm-32">
+          <mxGeometry y="380" width="210" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
